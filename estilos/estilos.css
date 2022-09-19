@@ -82,10 +82,17 @@ body{
 
 .ingresar-mail{
     height: 3vh;
+    width: 25vw;
 }
 
 .btn-footer{
+    display: flex;
     height: 3vh;
+    width: 11vw;
+    font-size: 0.7rem;
+    text-align: center;  
+    justify-content: center;
+    align-items: center;
 }
 
 /*SOBRE NOSOTROS*/
@@ -128,6 +135,7 @@ body{
 
     .ingresar-mail{
         height: auto;
+        width: auto;
     }
 
     .footer{
@@ -135,7 +143,13 @@ body{
     }
 
     .btn-footer{
+        display: flex;
         height: auto;
+        width: auto;
+        font-size: 0.8rem;
+        text-align: center;  
+        justify-content: center;
+        align-items: center;
     }
 
     /*GALERIA*/
